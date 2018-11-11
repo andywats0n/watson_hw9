@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
@@ -19,28 +19,28 @@
             <div class="col-sm-1 position-fixed pt-4 navigation">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:5000/">Home</a>
+                        <a class="nav-link" href="./index.html">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:5000/fig/max_temp">/fig/max_temp</a>
+                        <a class="nav-link" href="./max_temp.html">max temp</a>
+                    </li>
+                    <li class="nav-item nav-link">humidity</li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./cloud_cover.html">cloud cover</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:5000/fig/humidity">/fig/humidity</a>
-                    </li>
-                    <li class="nav-item nav-link">/fig/cloud_cover</li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:5000/fig/wind_speed">/fig/wind_speed</a>
+                        <a class="nav-link" href="./wind_speed.html">wind speed</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:5000/comparisons">/comparisons</a>
+                        <a class="nav-link" href="./comparisons.html">comparisons</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:5000/data">/data</a>
+                        <a class="nav-link" href="./data.html">data</a>
                     </li>
                 </ul>
             </div>
             <div class="col-lg-9 offset-3 mt-4 main-content">
-                <img src="../static/assets/cloud_cover.png" alt="wind_speed.png">
+                <img src="../assets/humidity.png" alt="wind_speed.png">
             </div>
         </div>
     </div>

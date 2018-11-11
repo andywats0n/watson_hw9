@@ -9,9 +9,12 @@
     max-width:90%;
     margin:auto;
 }
-#comp_img_container {
-    max-width: 85%;
+#comp-img-container {
+    max-width: 75%;
 }
-.comp_img {
+.comp-img {
     max-width:700px !important;
+}
+#comp-ul {
+    margin-right:4px;
 }
